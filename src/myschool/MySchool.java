@@ -5,6 +5,10 @@
  */
 package myschool;
 
+import entity.Person;
+
+
+
 /**
  *
  * @author Irina
@@ -16,6 +20,11 @@ public class MySchool {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Person person1 = new Person(1, "student" , "Ivan", "Ivanov", 22, 02, 1983);
+        
+        System.out.println(person1.toString());
+
+        
     }
     
 }
